@@ -143,7 +143,7 @@ Then open your browser at:
 ✅ Responsive UI using Bootstrap  
 
 ---
-
+## Screenshots are available in Issues section
 ## 🧠 How AI Works
 The `ExpensePredictor` uses a simple rule-based system:  
 - If total > ₹10,000 → ⚠️ High Spending Alert  
