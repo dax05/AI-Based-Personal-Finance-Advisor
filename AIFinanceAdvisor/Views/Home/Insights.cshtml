@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "AI Insights";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">🧠 AI Financial Insights</h1>
+
+    <div class="alert alert-info p-4 text-center">
+        <strong>@ViewBag.Advice</strong>
+    </div>
+
+    <p class="text-muted text-center">
+        The AI model analyzes your spending trends and provides real-time advice based on your total and average
+        expenses.
+    </p>
+
+    <a href="/Home/Index" class="btn btn-secondary mt-3 d-block mx-auto" style="width:200px;">← Back to Home</a>
+</div>

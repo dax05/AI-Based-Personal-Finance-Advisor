@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    var data = ViewBag.Data as IEnumerable<dynamic>;
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">📊 Expense Dashboard</h1>
+
+    <div class="alert alert-primary text-center">
+        <strong>Total Spending:</strong> ₹@ViewBag.Total
+    </div>
+
+    <h4>Spending by Category</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Total Spent (₹)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (data != null)
+            {
+                foreach (var d in data)
+                {
+                    <tr>
+                        <td>@d.Category</td>
+                        <td>@d.Total</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <a href="/Home/Index" class="btn btn-secondary mt-3">← Back to Home</a>
+</div>
