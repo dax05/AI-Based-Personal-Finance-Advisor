@@ -1,12 +1,12 @@
-# 💸 AI-Based Personal Finance Advisor
+# AI-Based Personal Finance Advisor
 
-## 📘 Description
+## Description
 The **AI-Based Personal Finance Advisor** is a .NET 8 MVC web application that helps users track daily expenses, visualize spending patterns, and receive AI-driven financial insights.  
 It uses **ASP.NET Core MVC**, **Entity Framework Core (SQLite)**, and **ML.NET** to offer an interactive and intelligent budgeting experience.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 - **.NET 8.0** (ASP.NET Core MVC)
 - **Entity Framework Core (SQLite)** for lightweight data storage
 - **ML.NET** for simple AI-based budget predictions
