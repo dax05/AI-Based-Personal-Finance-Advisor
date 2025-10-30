@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIFinanceAdvisor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1bdec6a3d3148412d7627f9f8560059d1e7b9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIFinanceAdvisor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIFinanceAdvisor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
